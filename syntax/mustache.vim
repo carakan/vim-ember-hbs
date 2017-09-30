@@ -56,4 +56,5 @@ highlight link hbsUnescapedIdentifier Identifier
 highlight link hbsComment Comment
 highlight link hbsArg Type
 
-let b:current_syntax = "html.handlebars"
+let b:current_syntax = "mustache"
+delcommand HtmlHiLink
